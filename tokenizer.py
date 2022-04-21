@@ -24,7 +24,7 @@ def tokenizer(x):
         program_Comments_removed = program_Single_Comments_Removed
         return program_Comments_removed
 
-    RE_Operators = "(\+)|(-)|(=)|(\*)|(/)"
+    RE_Operators = "(\+)|(-)|(\*)|(/)"
     RE_Numerals = "^(\d+)$"
     RE_Identifiers = "^[a-zA-Z_]+[a-zA-Z0-9_]*"
 
